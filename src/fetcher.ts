@@ -117,8 +117,8 @@ export class Fetcher {
                 throw new Error('Unexpected API response structure');
             }
         } catch (error) {
-            console.log('error: ', error);
-            return `Can't fetch any contribution. Please check your username 😬`;
+    console.log('error: ', error);
+    return `Can't fetch any contribution. Please check your username 😬`;
         }
     }
 }
